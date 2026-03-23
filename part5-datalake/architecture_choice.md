@@ -1,0 +1,7 @@
+##Architecture Recommendation
+
+For this startup, I recommend using a ##Data Lakehouse. The reason is simple: the company deals with four very different types of data—GPS logs, customer text reviews, payment records, and product images. It’s hard to fit all of these into a traditional database. A regular data lake is helpful because it can store all kinds of raw data, like JSON files, images, logs, and other unstructured or semi-structured information. This gives the company a flexible and affordable way to store everything as the business grows.
+
+But just storing the data isn’t enough if the startup wants to do reporting and analysis, a data lakehouse is the better option. It keeps the flexibility of a data lake, but also lets people run SQL queries and do analytics right on that data. This way, analysts and business teams can get insights without having to move everything into a separate warehouse.
+
+I recommend a data lakehouse for three reasons. First, it can store all the startup’s raw data in one place, even though the formats are very different. Second, it supports SQL querying, making analysis and reporting much easier. Third, it reduces the need for separate systems, keeping the architecture simpler and more scalable as the startup grows. For this kind of mixed and growing data, a data lakehouse is the most practical choice.    
